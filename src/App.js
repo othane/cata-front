@@ -6,7 +6,7 @@ import CataNav from './CataNav'
 class App extends Component {
     render() {
         return (
-            <div className="container">
+            <div>
                 <CataNav></CataNav>
                 {this.props.children}
             </div>

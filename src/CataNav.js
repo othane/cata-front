@@ -30,16 +30,18 @@ class CataNav extends Component {
 
                 <Navbar.Collapse>
                     <Nav>
-                        <LinkContainer to="stores">
+                        <LinkContainer to="/stores">
                             <NavItem>stores</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="catalog">
+                        <LinkContainer to="/catalog">
                             <NavItem>catalog</NavItem>
                         </LinkContainer>
                     </Nav>
 
                     <Nav pullRight>
-                        <NavItem >login</NavItem>
+                        <LinkContainer to="/login">
+                            <NavItem>login</NavItem>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
